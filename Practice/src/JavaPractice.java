@@ -13,7 +13,12 @@ public class JavaPractice {
         }
     }
 // Create a function that finds the maximum range of a triangle's third edge, where the side lengths are all integers.
-public static int nextEdge(int side1, int side2) {
-   return (side1 + side2) - 1;
+    public static int nextEdge(int side1, int side2) {
+        return (side1 + side2) - 1;
+    }
+
+// Create a function that takes voltage and current and returns the calculated power.
+public static int power(int voltage, int current) {
+    return voltage * current;
 }
 }
