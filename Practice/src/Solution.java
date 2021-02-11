@@ -14,8 +14,11 @@ public class Solution {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        public static int getN(int N){
-            if (N % 1) {
+        public static int getN(int ){
+            System.out.println("Enter a number: ");
+            int userInput = Integer.parseInt(scanner.nextLine());
+
+            if (userInput  1) {
                 System.out.print("Weird");
             } else if (N % 2 && N >= 2 || N <= 5) {
                 System.out.print("Not Weird");
